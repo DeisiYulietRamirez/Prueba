@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Formulario de Registro</title>
+  </head>
+
+  <body class="fondo">
+    <div class="container my-4">
+      <form class="form-signin col-md-6 bg_form py-4" action="php/formulario.php" method="POST">
+        <div class="text-center mb-4">
+          <img class="mb-4" src="http://www.transparentpng.com/thumb/pokemon-go/2mdYaH-pokemon-go-logo-hd-image.png" alt="" width="72" height="72"> <!-- imagen pokemon -->
+          <h1 class="h3 mb-3 font-weight-normal text-white">Formulario de Registro</h1>
+        </div>
+
+        <div class="form-label-group text-white">
+          <label for="nombre" >Nombres</label>
+          <input type="text" id="nombre" class="form-control" name="nombre" required>
+        </div><br>
+
+        <div class="form-label-group text-white">
+          <label for="apellidos">Apellidos</label>
+          <input type="text" id="apellidos" class="form-control" name="apellidos" required>
+        </div><br>
+
+        <div class="form-label-group text-white">
+          <label for="correo">Correo Electronico</label>
+          <input type="email" id="correo" class="form-control" name="correo" required autofocus>
+        </div><br>
+
+        <div class="form-label-group text-white">
+          <label for="contrasena">Contraseña</label>
+          <input type="password" id="contrasena" class="form-control" name="contrasena" required>
+        </div><br>
+
+        <input class="btn btn-lg btn-primary btn-block" type="submit" name="btn_registro">Registrar</input><br>
+        <p class=" text-white text-center"> Para volver  <a href="index.html">Ingresa aqui</a></p>
+        <p class="mt-5 mb-3 text-muted text-center">&copy; 2021</p>
+      </form>
+    </div>
+    
+  </body>
+</html>

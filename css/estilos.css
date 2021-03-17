@@ -1,0 +1,25 @@
+button{
+	background: rgb(9,115,121);
+	background: -webkit-linear-gradient(left, rgba(9,115,121,0.8435749299719888) 35%, rgba(0,36,34,0.6250875350140056) 100%, rgba(0,249,255,0.6082808123249299) 100%);
+	background: -o-linear-gradient(left, rgba(9,115,121,0.8435749299719888) 35%, rgba(0,36,34,0.6250875350140056) 100%, rgba(0,249,255,0.6082808123249299) 100%);
+	background: linear-gradient(to right, rgba(9,115,121,0.8435749299719888) 35%, rgba(0,36,34,0.6250875350140056) 100%, rgba(0,249,255,0.6082808123249299) 100%);
+
+	padding: 10px;
+	margin: 10px 0;
+}
+
+.fondo{
+	background-image: url(https://image.winudf.com/v2/image1/Y29tLmJlc3QubGl2ZS53YWxscGFwZXIuYmFja2dyb3VuZHMuaGQudGhlbWUuZ2lybHkud2FsbHBhcGVycy5pbWFnZXMubHdwLmdhbGF4eS5zcGFjZS5zdGFycy5saXZlLndhbGxwYXBlcl9zY3JlZW5fMTFfMTU1MDc2ODg5NV8wMjI/screen-11.jpg?fakeurl=1&type=.jpg);
+}
+
+.bg_form{
+	background-color: rgba(0, 0, 102, 0.5);
+}
+
+h3, h4{
+	color: black;
+}
+
+.diferente{
+	background-color: rgba(217, 217, 217, 0.5);
+}
